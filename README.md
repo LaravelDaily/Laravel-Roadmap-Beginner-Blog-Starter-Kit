@@ -1,69 +1,67 @@
-# Laravel + Blade Starter Kit
+# Laravel Roadmap: Beginner Personal Blog with LaravelDaily Starter Kit
+
+This is an example demo project that implements majority of the topics required in [Laravel Roadmap Beginner Level](https://github.com/LaravelDaily/Laravel-Roadmap-Learning-Path):
+
+**Routing and Controllers: Basics**
+
+- Callback Functions and Route::view()
+- Routing to a Single Controller Method
+- Route Parameters
+- Route Naming
+- Route Groups
+
+**Blade Basics**
+
+- Displaying Variables in Blade
+- Blade If-Else and Loop Structures
+- Blade Loops
+- Layout: @include, @extends, @section, @yield
+- Blade Components
+
+**Auth Basics**
+
+- Starter Kits: [Laravel Daily Starter Kit](https://github.com/LaravelDaily/starter-kit) (Tailwind, Blade)
+- Default Auth Model and Access its Fields from Anywhere
+- Check Auth in Controller / Blade
+- Auth Middleware
+
+**Database Basics**
+
+- Database Migrations
+- Basic Eloquent Model and MVC: Controller -> Model -> View
+- Eloquent Relationships: belongsTo / hasMany / belongsToMany
+- Eager Loading and N+1 Query Problem
+
+**Full Simple CRUD**
+
+- Route Resource and Resourceful Controllers
+- Forms, Validation and Form Requests
+- File Uploads and Storage Folder Basics
+- Table Pagination
+
+This demo project is using [LaravelDaily Starter Kit](https://github.com/LaravelDaily/starter-kit) (Tailwind CSS) as an Auth Starter Kit.
 
 ---
 
-## Introduction
+## How to use
 
-Our Laravel 12 + Blade starter kit provides the typical functionality found in the Laravel Starter kits, but with a few key differences:
+- Clone the repository with **git clone**
+- Copy **.env.example** file to **.env** and edit database credentials there
+- Run **composer install**
+- Run **npm install**
+- Run **npm run build**
+- Run **php artisan key:generate**
+- Run **php artisan migrate --seed** (it has some seeded data for your testing)
+- That's it: launch the main URL.
+- You can login to manage articles with default credentials __test@example.com__ - **password**
 
-- A CoreUI/AdminLTE inspired design layout
-- Blade + AlpineJS code
+## License
 
-This kit aims to fill the gap where there is no simple **Blade only** starter kit available.
-
-Our internal goal at Laravel Daily is to start using this starter kit for our Demo applications, to avoid overwhelming our audience with Vue/Livewire/React if we had used one of the official Laravel 12 starter kits.
-
-**Note:** This is Work in Progress kit, so it will get updates and fixes/features as we go.
-
----
-
-## Screenshots
-
-![](https://laraveldaily.com/uploads/2025/05/LoginPage.png)
-
-![](https://laraveldaily.com/uploads/2025/05/RegisterPage.png)
-
-![](https://laraveldaily.com/uploads/2025/05/DashboardPage.png)
-
-![](https://laraveldaily.com/uploads/2025/05/ProfilePage.png)
+Basically, feel free to use and re-use any way you want.
 
 ---
 
-## What is Inside?
+## More from our LaravelDaily Team
 
-Inside you will find all the functions that you would expect:
-
-- Authentication
-    - Login
-    - Registration
-    - Password Reset Flow
-    - Email Confirmation Flow
-- Dashboard Page
-- Profile Settings
-    - Profile Information Page
-    - Password Update Page
-    - Appearance Preferences
-
----
-
-## How to use it?
-
-To use this kit, you can install it using:
-
-```bash
-laravel new --using=laraveldaily/starter-kit
-```
-
-From there, you can modify the kit to your needs.
-
----
-
-## Design Elements
-
-If you want to see examples of what design elements we have, you can [visit the Wiki](<https://github.com/LaravelDaily/starter-kit/wiki/Design-Examples-(Raw-Files)>) and see the raw HTML files.
-
----
-
-## Licence
-
-Starter kit is open-sourced software licensed under the MIT license.
+- Subscribe to our [YouTube channel Laravel Daily](https://www.youtube.com/channel/UCTuplgOBi6tJIlesIboymGA)
+- Enroll in our [Laravel Online Courses](https://laraveldaily.com/)
