@@ -43,6 +43,18 @@ This demo project is using [LaravelDaily Starter Kit](https://github.com/Laravel
 
 ---
 
+## Images
+
+![](https://laraveldaily.com/uploads/2025/06/roadmap-starter-kit-homepage.png)
+
+![](https://laraveldaily.com/uploads/2025/06/roadmap-starter-kit-post.png)
+
+![](https://laraveldaily.com/uploads/2025/06/roadmap-starter-kit-dashboard.png)
+
+![](https://laraveldaily.com/uploads/2025/06/roadmap-starter-kit-posts-list.png)
+
+---
+
 ## How to use
 
 - Clone the repository with **git clone**
